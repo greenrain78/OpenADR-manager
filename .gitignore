@@ -1,0 +1,11 @@
+# IDE파일
+.idea
+*.pyc
+# 맥
+.DS_Store
+
+# 설정파일
+.env
+
+# 폴더 보관
+!.keep
