@@ -14,4 +14,4 @@ database = {
 db = DBAdapter(name="database", direct=database)
 
 
-print("hello")
+print("hello owo")
