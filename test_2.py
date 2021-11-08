@@ -2,7 +2,7 @@ import json
 import requests
 from pandas.io.json import json_normalize
 
-slack_token = 'xoxb-2637151350448-2663729429670-CLAM6RcUv7FxjarHDyYaS63z'
+slack_token = 'xoxb-2637151350448-2663729429670-dG1rnhT8rfcNuzT8ie4c66Om'
 # 파라미터
 data = {'Content-Type': 'application/x-www-form-urlencoded',
         'token': slack_token,
