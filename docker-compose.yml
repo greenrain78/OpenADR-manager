@@ -8,7 +8,9 @@ services:
       dockerfile: Manager/Docker/Dockerfile
     volumes:
       - ./:/home/OpenADR-manager
-#    tty : true
+      - /var/run/docker.sock:/var/run/docker.sock
+
+    #    tty : true
     environment:
       IS_SERVER: "False"
       TZ: Asia/Seoul
