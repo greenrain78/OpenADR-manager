@@ -5,7 +5,7 @@ services:
     container_name: openadr_manager
     build:
       context: .
-      dockerfile: Manager/Docker/Dockerfile
+      dockerfile: Manager/Dockerfile
     volumes:
       - ./:/home/OpenADR-manager
       - /var/run/docker.sock:/var/run/docker.sock
