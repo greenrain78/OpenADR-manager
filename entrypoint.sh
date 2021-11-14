@@ -1,6 +1,6 @@
 # git pull
 git fetch --all
-git pull origin main
+git pull origin main --ff-only
 
 # check para
 # shellcheck disable=SC2145
