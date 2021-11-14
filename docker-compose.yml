@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  model:
+    container_name: openadr_manager
+    build:
+      context: .
+      dockerfile: Manager/Docker/Dockerfile
+    volumes:
+      - ./:/home/OpenADR-manager
+#    tty : true
+    environment:
+      IS_SERVER: "False"
+      TZ: Asia/Seoul
+      DB_NICKNAME: local
+
+    entrypoint: ["sh", "/home/OpenADR-manager/entrypoint.sh", $GIT_ID, $GIT_PASSWORD]
