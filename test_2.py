@@ -7,7 +7,7 @@ slack_token = 'xoxb-2637151350448-2663729429670-CXuyzwkDgjV0uXEE9zRfzeSl'
 data = {'Content-Type': 'application/x-www-form-urlencoded',
         'token': slack_token,
         'channel': 'test',
-        'text': 'testtttt',
+        'text': '정상 동작',
         }
 
 # 메시지 등록 API 메소드: chat.postMessage
