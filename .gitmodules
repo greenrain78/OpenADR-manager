@@ -4,3 +4,6 @@
 [submodule "Model"]
 	path = Model
 	url = https://github.com/greenrain78/OpenADR-model
+[submodule "Manager"]
+	path = Manager
+	url = https://github.com/greenrain78/container-manager
