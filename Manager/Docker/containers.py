@@ -11,12 +11,12 @@ class DockerContainers(DockerConnecter):
     docker 컨테이너 관리
     """
 
-    def container_list(self):
+    def container_list(self, filters=None):
         """
         컨테이너 리스트를 조회\n
         현재 실행중인 컨테이너들의 이름을 조회한다.
         """
-        results = self.docker_client.containers.list()
+        results = self.docker_client.containers.list(filters=filters)
         return results
 
     def container_run(self, name, image) -> Optional[Container]:
@@ -28,7 +28,11 @@ class DockerContainers(DockerConnecter):
         """
         try:
             container = self.docker_client.containers.run(
-                image, name=name, detach=True)
+                image, name=name, detach=True,
+                labels={
+                    "subsystem_container": "True",
+                }
+            )
             return container
         except APIError as e:
             if e.status_code == 400:
