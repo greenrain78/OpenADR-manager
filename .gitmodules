@@ -1,9 +1,9 @@
 [submodule "src"]
 	path = src
-	url = http://{$GIT_ID}:{$GIT_PASSWORD}@github.com/greenrain78/container-engine.git
+	url = https://github.com/greenrain78/container-engine
 [submodule "Model"]
 	path = Model
-	url = http://$GIT_ID:$GIT_PASSWORD@github.com/greenrain78/OpenADR-model.git
+	url = https://github.com/greenrain78/OpenADR-model
 [submodule "Manager"]
 	path = Manager
-	url = http://$GIT_ID:$GIT_PASSWORD@github.com:greenrain78/container-manager.git
+	url = https://github.com/greenrain78/container-manager
