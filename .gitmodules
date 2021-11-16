@@ -1,9 +1,9 @@
 [submodule "src"]
 	path = src
-	url = ehdtjs2651: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@github.com/greenrain78/container-engine.git
+	url = git@github.com:greenrain78/container-engine.git
 [submodule "Model"]
 	path = Model
-	url = ehdtjs2651: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@github.com/greenrain78/OpenADR-model.git
+	url = git@github.com:greenrain78/OpenADR-model.git
 [submodule "Manager"]
 	path = Manager
-	url = ehdtjs2651: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@github.com/greenrain78/container-manager.git
+	url = git@github.com:greenrain78/container-manager.git
