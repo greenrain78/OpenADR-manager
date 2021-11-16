@@ -14,6 +14,13 @@ services:
     environment:
       IS_SERVER: "False"
       TZ: Asia/Seoul
-      DB_NICKNAME: local
+      DB_NICKNAME: server_on_docker
 
     entrypoint: ["sh", "/home/OpenADR-manager/entrypoint.sh", $GIT_ID, $GIT_PASSWORD]
+
+
+# local docker 연결시
+networks:
+  default:
+    external: true  # 기존 network와 연결
+    name: openadr-docker_default
