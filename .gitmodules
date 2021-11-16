@@ -1,6 +1,6 @@
 [submodule "src"]
 	path = src
-	url = http://{$GIT_ID}:{GIT_PASSWORD}@github.com/greenrain78/container-engine.git
+	url = http://{$GIT_ID}:{$GIT_PASSWORD}@github.com/greenrain78/container-engine.git
 [submodule "Model"]
 	path = Model
 	url = http://$GIT_ID:$GIT_PASSWORD@github.com/greenrain78/OpenADR-model.git
