@@ -3,7 +3,7 @@
 	url = git@github.com/greenrain78/container-engine
 [submodule "Model"]
 	path = Model
-	url = https://github.com/greenrain78/OpenADR-model
+	url = https://$GIT_ID:$GIT_PASSWORD@github.com/greenrain78/OpenADR-model
 [submodule "Manager"]
 	path = Manager
 	url = https://github.com/greenrain78/container-manager
