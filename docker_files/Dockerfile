@@ -22,4 +22,3 @@ RUN python -m pip install -r /home/OpenADR-model/requirements.txt
 
 # entrypoint
 ENTRYPOINT ["sh", "/home/OpenADR-model/entrypoint.sh" ]
-

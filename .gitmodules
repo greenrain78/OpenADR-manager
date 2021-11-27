@@ -1,3 +1,4 @@
 [submodule "Manager"]
 	path = Manager
-	url = git@github.com:greenrain78/container-manager.git
+	url = https://github.com/greenrain78/container-manager
+
