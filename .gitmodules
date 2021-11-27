@@ -1,9 +1,3 @@
-[submodule "src"]
-	path = src
-	url = git@github.com:greenrain78/container-engine.git
-[submodule "Model"]
-	path = Model
-	url = git@github.com:greenrain78/OpenADR-model.git
 [submodule "Manager"]
 	path = Manager
 	url = git@github.com:greenrain78/container-manager.git
