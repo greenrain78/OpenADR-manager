@@ -7,7 +7,7 @@ DB_NICKNAME = os.environ.get(
     'DB_NICKNAME',  # 환경변수로 우선 입력
     default='local')  # 지정 없을시 서버에서 운영시 server_on_docker
 IS_MAIN_RUNNING = True  # main 함수 계속 동작 여부
-MAIN_INTERVAL = 10
+MAIN_INTERVAL = 3600
 
 DATABASES = {
     # docker-compose 에서 직접 기입
